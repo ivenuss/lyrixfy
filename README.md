@@ -34,3 +34,4 @@ The application's UI is minimal, clean, and intuitive, which was one of my goals
   - [Lodash](https://lodash.com/) for utility functions
   - [Framer Motion](https://www.framer.com/motion/) for animations on the site
   - [Zod](https://zod.dev/) for API data validation
+  - [Zustand](https://zustand-demo.pmnd.rs/) for state management
