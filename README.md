@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="https://dogehouse.tv">
+  <a href="https://lyrixfy.com/">
     <img height=64 src="https://raw.githubusercontent.com/ivenuss/lyrixfy/master/public/static/logo.svg"/>
   </a>
   <p align="center"><strong>Tool for bringing the meaning of lyrics</strong></p>
