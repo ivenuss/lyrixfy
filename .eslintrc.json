@@ -1,0 +1,64 @@
+{
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "project": "./tsconfig.json"
+  },
+  "plugins": ["@typescript-eslint", "prettier"],
+  "extends": [
+    "airbnb",
+    "airbnb-typescript",
+    "airbnb/hooks",
+    "next/core-web-vitals",
+    "plugin:@typescript-eslint/recommended",
+    "plugin:prettier/recommended"
+  ],
+  "rules": {
+    // General
+
+    // Prettier
+    "prettier/prettier": ["error", { "endOfLine": "auto" }],
+
+    // Next.js
+    "@next/next/no-img-element": "off",
+
+    // TypeScript
+    "@typescript-eslint/ban-ts-comment": "off",
+    "@typescript-eslint/consistent-type-imports": "warn",
+    "@typescript-eslint/no-empty-interface": [
+      "error",
+      { "allowSingleExtends": true }
+    ],
+    "@typescript-eslint/comma-dangle": "off",
+    "@typescript-eslint/naming-convention": "off",
+
+    // React
+    "react/no-unused-prop-types": "off",
+    "react/no-array-index-key": "off",
+    "react/function-component-definition": "off",
+    "react/jsx-props-no-spreading": "off",
+    "react/require-default-props": "off",
+
+    // Import order
+    "import/order": [
+      1,
+      {
+        "groups": [
+          "external",
+          "builtin",
+          "internal",
+          "sibling",
+          "parent",
+          "index"
+        ]
+      }
+    ],
+
+    // Other
+    "import/no-cycle": "off",
+    "linebreak-style": "off",
+    "no-underscore-dangle": "off",
+    "no-restricted-syntax": "off",
+    "import/extensions": "off",
+    "import/prefer-default-export": "off"
+  }
+}

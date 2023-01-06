@@ -1,0 +1,52 @@
+{
+  "name": "Lyrixfy",
+  "short_name": "Lyrixfy",
+  "categories": ["music", "photo", "social"],
+  "description": "Screenshot your favorite lyrics from any song. Share it on Stories, Tweet it or just send it directly to your friends!",
+  "display": "standalone",
+  "scope": "/",
+  "start_url": "/",
+  "theme_color": "#2dbe5f",
+  "background_color": "#0b0e11",
+  "icons": [
+    {
+      "src": "/static/favicons/android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/static/favicons/android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "purpose": "maskable",
+      "src": "/static/favicons/maskable-512x512.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "purpose": "maskable",
+      "src": "/static/favicons/maskable-192x192.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Search for song",
+      "url": "/search",
+      "icons": [
+        {
+          "src": "/static/shortcut-search.png",
+          "type": "image/png",
+          "sizes": "192x192"
+        }
+      ]
+    }
+  ],
+  "launch_handler": {
+    "route_to": "existing-client",
+    "navigate_existing_client": "never"
+  }
+}
