@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://dogehouse.tv">
-    <img height=64 src="https://raw.githubusercontent.com/ivenuss/lyrixfy/master/public/static/logo.svg?token=GHSAT0AAAAAAB3KGL6CTG3MSD5KPNKZUG6OY5YOPPA"/>
+    <img height=64 src="https://raw.githubusercontent.com/ivenuss/lyrixfy/master/public/static/logo.svg"/>
   </a>
   <p align="center"><strong>Tool for bringing the meaning of lyrics</strong></p>
 </p>
